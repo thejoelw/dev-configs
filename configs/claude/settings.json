@@ -1,0 +1,7 @@
+{
+  "effortLevel": "high",
+  "skipAutoPermissionPrompt": true,
+  "permissions": {
+    "defaultMode": "auto"
+  }
+}
