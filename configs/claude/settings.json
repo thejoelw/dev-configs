@@ -46,7 +46,11 @@
   },
   "sandbox": {
     "enabled": true,
-    "excludedCommands": ["git commit *"]
+    "excludedCommands": [
+      "zed --wait *",
+      "git commit *",
+      "GIT_EDITOR=$EDITOR git commit *"
+    ]
   },
   "effortLevel": "xhigh",
   "skipAutoPermissionPrompt": true,
