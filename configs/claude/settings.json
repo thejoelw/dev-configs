@@ -45,7 +45,8 @@
     }
   },
   "sandbox": {
-    "enabled": true
+    "enabled": true,
+    "excludedCommands": ["git commit *"]
   },
   "effortLevel": "xhigh",
   "skipAutoPermissionPrompt": true,
