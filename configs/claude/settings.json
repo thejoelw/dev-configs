@@ -49,7 +49,11 @@
     "excludedCommands": [
       "zed --wait *",
       "git commit *",
-      "GIT_EDITOR=$EDITOR git commit *"
+      "GIT_EDITOR=$EDITOR git commit *",
+      "gt create *",
+      "GIT_EDITOR=$EDITOR gt create *",
+      "gt modify *",
+      "GIT_EDITOR=$EDITOR gt modify *"
     ]
   },
   "effortLevel": "xhigh",

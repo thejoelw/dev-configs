@@ -19,3 +19,5 @@ mktemp "$TMPDIR/claude-commit-msg.XXXXXX"
 # Write your recommended message to the printed temp file, then:
 git commit --file={temp_file}
 ```
+
+If you're in the `archive` repo, prefer to use graphite (`gt create ...`, `gt modify ...`, etc) instead of `git ...` where possible.
